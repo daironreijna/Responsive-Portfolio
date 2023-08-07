@@ -80,7 +80,7 @@ This project is licensed under the [MIT Licence](./LICENSE).
 - https://www.forbes.com/uk/advisor/business/software/how-to-build-a-freelance-portfolio-website/
 - unsplash
 - pocstock
-- W3SChools (n.d.) Responsive Web Design - Introduction https://www.w3schools.com/css/css_rwd_intro.asp
+- W3SChools (n.d.) Responsive Web Design - Introduction - https://www.w3schools.com/css/css_rwd_intro.asp
 - https://www.w3schools.com/w3css/default.asp
 
 **Portfolio's reviewed for inspiration**

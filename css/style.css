@@ -21,3 +21,31 @@ h6 {
 p {
   margin: 0;
 }
+
+
+/* Footer of page with Contact section 
+--------------------------------------------------------------------*/
+.page-section-footer {
+  display:flex;
+  padding: 15px;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.flex-footer1, .flex-footer2 {
+  padding: 10px;
+  margin: 100px;
+  height: 200px;
+}
+
+.flex-footer1 {
+  width:5px;
+}
+
+.flex-footer2 {
+  border-left: 2px double;
+  border-right: darkblue dotted;
+  border-color: red;
+  width: 800px;
+}
+
