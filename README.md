@@ -82,6 +82,9 @@ This project is licensed under the [MIT Licence](./LICENSE).
 - pocstock
 - W3SChools (n.d.) Responsive Web Design - Introduction - https://www.w3schools.com/css/css_rwd_intro.asp
 - https://www.w3schools.com/w3css/default.asp
+- https://css-tricks.com/almanac/properties/g/grid-row-column/
+- Powell, K. (2022) Learn flexbox the easy way - https://www.youtube.com/watch?v=u044iM9xsWU
+- Powell, K. (2022) Learn how to create a responsive CSS grid layout - https://www.youtube.com/watch?v=sKFW3wek21Q
 
 **Portfolio's reviewed for inspiration**
 - https://www.asamiwright.com/

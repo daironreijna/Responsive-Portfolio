@@ -1,51 +1,134 @@
-* {
-  box-sizing: border-box;
+/* Global - CSS
+-----------------------------------------------------*/
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'header header header header header header'
+    'banner banner banner banner banner banner'
+    'menu About About About About About'
+    'menu Port0 Port0 Port0 Port0 Port0'
+	  'menu Port0 Port0 Port0 Port0 Port0'
+    'menu Port1 Port1 Port1 Port2 Port2'
+    'menu Port3 Port3 Port3 Port4 Port4'
+    'menu footer footer footer footer footer';
+  gap: 0.625em;
+  padding: 0.625em;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 5px;
+  cursor: pointer;
+  display: grid;
+  align-content: end;
 }
 
-body {
-  margin: 0;
-  padding: 0;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  line-height: 1.5;
+.grid-container > section {
+  text-align: center;
+  padding: 1.25em 0;
+  font-size: 1.875em;
+  gap: 1%;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  margin: 0;
+.grid-container > footer {
+  text-align: center;
+  padding: 1.25em 0;
+  font-size: 1em;
+  gap: 1%;
 }
 
-p {
-  margin: 0;
+.grid-container > div {
+  text-align: center;
+  /*  padding: 20px 0;   */
+  font-size: 1em;
+  text-align: justify;
+  margin: 1.25%;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
 }
 
 
-/* Footer of page with Contact section 
---------------------------------------------------------------------*/
-.page-section-footer {
-  display:flex;
-  padding: 15px;
-  align-items: center;
-  justify-content: space-around;
+
+/* Header
+-----------------------------------------------------*/
+.header { 
+  grid-area: header; 
+
 }
 
-.flex-footer1, .flex-footer2 {
-  padding: 10px;
-  margin: 100px;
-  height: 200px;
+/* Banner
+-----------------------------------------------------*/
+
+.banner { 
+  grid-area: banner; 
+  background-image: url("../images/02-hero-bg.jpg");
+  background-size: cover;
 }
 
-.flex-footer1 {
-  width:5px;
+/* About
+-----------------------------------------------------*/
+.about { 
+  grid-area: About; 
 }
 
-.flex-footer2 {
-  border-left: 2px double;
-  border-right: darkblue dotted;
-  border-color: red;
-  width: 800px;
+.about p {
+  font-size: 1em;
 }
 
+/* Aside
+-----------------------------------------------------*/
+
+.menu-aside { 
+  grid-area: menu; 
+}
+
+
+/* Portfolio sections
+-----------------------------------------------------*/
+.portfolio-0 { 
+  grid-area: Port0;
+  width: 100%;
+  height: 25em;
+  background-image: url("../images/02-portfolio-1.jpg");
+  background-size: cover;
+}
+
+.portfolio-1 { 
+  grid-area: Port1;
+  background-image: url("../images/02-portfolio-2.jpg");
+  background-size: cover;
+}
+
+.portfolio-2 { 
+  grid-area: Port2;
+  animation-play-state: paused;
+  background-image: url("../images/02-portfolio-3.gif");
+  background-size: cover;
+}
+
+.portfolio-3 { 
+  grid-area: Port3;
+  background-image: url("../images/02-portfolio-4.jpg");
+  background-size: cover;
+}
+
+.portfolio-4 { 
+  grid-area: Port4; 
+  animation-play-state: paused;
+  background-image: url("../images/02-run-buddy.gif");
+  background-size: cover;
+}
+
+
+
+/* Footer
+-----------------------------------------------------*/
+
+.footer { 
+  grid-area: footer;
+  word-spacing: 0.3125em;
+  text-align: center
+}
