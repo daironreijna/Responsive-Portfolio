@@ -19,6 +19,8 @@
 
 The Responsive Portfolio repository is a web development project focused on creating a portfolio website that effectively showcases my skills, projects, and personal information. The portfolio is designed to be responsive, adapting seamlessly to various screen sizes and devices. It includes sections for an introduction, work samples, and contact details.
 
+![Screenshot](./images/Screenshot.png)
+
 ## Motivation
 
 The motivation behind building this project was to create a professional online presence that not only serves as a showcase for my work but also demonstrates my abilities as a web developer. This project is as an opportunity to building a portfolio to present to potential employers. I aim to create a visually appealing and user-friendly portfolio that reflects my commitment to creating high-quality, accessible web applications.
@@ -85,6 +87,7 @@ This project is licensed under the [MIT Licence](./LICENSE).
 - https://css-tricks.com/almanac/properties/g/grid-row-column/
 - Powell, K. (2022) Learn flexbox the easy way - https://www.youtube.com/watch?v=u044iM9xsWU
 - Powell, K. (2022) Learn how to create a responsive CSS grid layout - https://www.youtube.com/watch?v=sKFW3wek21Q
+- https://www.udacity.com/blog/2021/03/creating-an-html-404-error-web-page.html
 
 **Portfolio's reviewed for inspiration**
 - https://www.asamiwright.com/
