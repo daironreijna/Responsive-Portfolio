@@ -1,7 +1,5 @@
 # Responsive Portfolio Challenge
 
-![Portfolio Screenshot](./screenshot.png) [to be added]
-
 ## Table of Contents
 
 - [Description](#description)
